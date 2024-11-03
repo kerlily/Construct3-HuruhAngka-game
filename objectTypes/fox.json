@@ -1,0 +1,77 @@
+{
+	"name": "fox",
+	"plugin-id": "Sprite",
+	"sid": 726264769002244,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "pilih",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 691844206373281
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3901788,
+						"collisionPoly": {
+							"points": [
+								0.21875,
+								0.234375,
+								0.78125,
+								0.234375,
+								0.8828125,
+								0.3671875,
+								0.9140625,
+								0.421875,
+								0.9296875,
+								0.46875,
+								0.9140625,
+								0.5625,
+								0.6875,
+								0.8046875,
+								0.609375,
+								0.828125,
+								0.5546875,
+								0.8359375,
+								0.4453125,
+								0.8359375,
+								0.390625,
+								0.828125,
+								0.2578125,
+								0.75,
+								0.2265625,
+								0.6171875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 179333768887083,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

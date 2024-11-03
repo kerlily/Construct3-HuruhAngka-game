@@ -1,0 +1,22 @@
+{
+	"name": "BEFORE",
+	"plugin-id": "Button",
+	"sid": 612356291676511,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "BEFORE",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 242836650207458
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 527649800330514
+		}
+	]
+}

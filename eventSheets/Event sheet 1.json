@@ -1,0 +1,216 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "pilihan",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 976463895650636
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "NRXT",
+					"sid": 515613434586474
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 179722681862038,
+					"parameters": {
+						"variable": "pilihan",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 643897223483959
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BEFORE",
+					"sid": 108174424701136
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 208070563478984,
+					"parameters": {
+						"variable": "pilihan",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 205248992627025
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "tikus",
+					"sid": 961330696309386,
+					"parameters": {
+						"instance-variable": "pilih",
+						"comparison": 0,
+						"value": "pilihan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 536374605243816,
+					"parameters": {
+						"object": "tikus"
+					}
+				}
+			],
+			"sid": 291057724671758
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "kucing",
+					"sid": 605544389870880,
+					"parameters": {
+						"instance-variable": "pilih",
+						"comparison": 0,
+						"value": "pilihan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 999819985514311,
+					"parameters": {
+						"object": "kucing"
+					}
+				}
+			],
+			"sid": 669820611120780
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "fox",
+					"sid": 496844079381422,
+					"parameters": {
+						"instance-variable": "pilih",
+						"comparison": 0,
+						"value": "pilihan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 655950108328911,
+					"parameters": {
+						"object": "fox"
+					}
+				}
+			],
+			"sid": 373067632793669
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "ayam",
+					"sid": 613596956135769,
+					"parameters": {
+						"instance-variable": "pilih",
+						"comparison": 0,
+						"value": "pilihan"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 749265029639233,
+					"parameters": {
+						"object": "ayam"
+					}
+				}
+			],
+			"sid": 309839952909674
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 987858847343757,
+					"parameters": {
+						"variable": "pilihan",
+						"comparison": 5,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "NRXT",
+					"sid": 282871979525910,
+					"parameters": {
+						"mode": "enabled"
+					}
+				}
+			],
+			"sid": 166604872944512
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 135015755283436,
+					"parameters": {
+						"variable": "pilihan",
+						"comparison": 4,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "BEFORE",
+					"sid": 652111082085117,
+					"parameters": {
+						"mode": "enabled"
+					}
+				}
+			],
+			"sid": 841812708498462
+		}
+	],
+	"sid": 274953068334246
+}

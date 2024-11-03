@@ -1,0 +1,22 @@
+{
+	"name": "NRXT",
+	"plugin-id": "Button",
+	"sid": 941067094150642,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "NEXT",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 564693525404818
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Anchor",
+			"sid": 780489802253600
+		}
+	]
+}

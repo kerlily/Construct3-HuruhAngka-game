@@ -1,0 +1,81 @@
+{
+	"name": "ayam",
+	"plugin-id": "Sprite",
+	"sid": 432173862956376,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "pilih",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 770434140390903
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4779486,
+						"collisionPoly": {
+							"points": [
+								0.515625,
+								0.15625,
+								0.5625,
+								0.1875,
+								0.6953125,
+								0.3671875,
+								0.7265625,
+								0.4296875,
+								0.765625,
+								0.6171875,
+								0.6875,
+								0.8125,
+								0.609375,
+								0.8359375,
+								0.5546875,
+								0.84375,
+								0.4453125,
+								0.84375,
+								0.390625,
+								0.8359375,
+								0.2578125,
+								0.7578125,
+								0.234375,
+								0.578125,
+								0.2734375,
+								0.4296875,
+								0.3046875,
+								0.3671875,
+								0.4296875,
+								0.1875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 323921300022001,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

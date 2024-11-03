@@ -1,0 +1,71 @@
+{
+	"name": "tikus",
+	"plugin-id": "Sprite",
+	"sid": 591256022713005,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "pilih",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 971730926407813
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 128,
+						"height": 128,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1857439,
+						"collisionPoly": {
+							"points": [
+								0.2578125,
+								0.1953125,
+								0.7890625,
+								0.265625,
+								0.7734375,
+								0.6171875,
+								0.6875,
+								0.8046875,
+								0.609375,
+								0.828125,
+								0.5546875,
+								0.8359375,
+								0.4453125,
+								0.8359375,
+								0.390625,
+								0.828125,
+								0.2734375,
+								0.78125,
+								0.1015625,
+								0.6328125
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 818553544248305,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
